@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerViewAdapter(mainActivity: MainActivity) : RecyclerView.Adapter<RecycleViewHolder>() {
+class RecyclerViewAdapter(mainActivity: ActivityTwo) : RecyclerView.Adapter<RecycleViewHolder>() {
 
     private var mClickListener: ItemClickListener = mainActivity
 

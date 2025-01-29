@@ -9,7 +9,7 @@ data class NewsEntity (
     data class Article(
         @SerializedName("title") val title: String,
         @SerializedName("description") val description: String,
-        @SerializedName("Source") val source: String,
+        @SerializedName("source") val source: String,
         @SerializedName("country") val country: String,
 
     ){}
